@@ -5,10 +5,13 @@ var generateBtn = document.querySelector("#generate");
 var specialCharacters = " !#$%&'()*+,-./:;<=>?@\^_`{|}~".split("");
 var letters = "abcdefghijklmnopqrstuvwxyz".split("");
 var numbers = "1234567890".split("");
-// 
+var selections = []
+
+// just to check if split works
 console.log(specialCharacters);
 console.log(letters);
 console.log(numbers);
+console.log(selections);
 // Write password to the #password input
 function writePassword() {
   var password = generatePassword();
@@ -26,10 +29,5 @@ document.querySelector(".btn").addEventListener('click', promptMe);
 function promptMe() {
     var buttonPrompt = prompt("Use special characters? y/n");
     if (input === "y") {
-      
-    } else if () {
-      else if () {
-        
-      }
-    }
-}
+      selections = (specialCharacters)
+}}
