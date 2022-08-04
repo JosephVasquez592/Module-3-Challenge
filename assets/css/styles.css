@@ -3,7 +3,7 @@
 *::after {
   box-sizing: border-box;
   /* delete background color when finished */
-  background-color: black;
+  background-color: black; */
 }
 
 html,
